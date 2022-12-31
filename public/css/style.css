@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* display: flex;
+align-items: ;
+justify-content: ;
+flex-direction: ;
+
+flex-wrap: ; */
+
+
+/* .container {
+} */
+/* display: flex;
+align-items: baseline;
+justify-content: space-between; */
+/* flex-direction: column; */
+/* flex-wrap: wrap; */
+
+.header {
+  background-color: rgb(25, 227, 156);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em 1em 2em;
+}
+
+.navbar {
+  background-color: rgb(74, 212, 180);
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.navbar a {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.isi {
+  display: flex;
+  align-items: flex-start;
+}
+
+.category-side {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: aqua;
+}
